@@ -15,4 +15,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", ">= 3.9.0"
 
   spec.add_development_dependency "bundler"
+  spec.add_development_dependency "jekyll-sass-converter"
 end

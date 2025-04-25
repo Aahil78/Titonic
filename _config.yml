@@ -1,2 +1,9 @@
 title: "Aahil Irfan | Portfolio"
 description: "Personal portfolio of Aahil Irfan — young engineer, builder, and founder of Techs Bazaar."
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-sass-converter
