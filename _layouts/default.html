@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
-  <link rel="stylesheet" href="{{ "/style.css" | relative_url }}" />
-  <!-- Add any additional links or metadata here -->
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <div class="container">
-        <h1 class="logo">Aahil Irfan</h1>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  {% include nav.html %}
 
   <main>
+    {% include header.html %}
     {{ content }}
   </main>
 
-  <footer>
-    <div class="container">
-      <p>© 2025 Aahil Irfan — Built with love, code, and GPIO pins</p>
-    </div>
-  </footer>
+  {% include footer.html %}
 </body>
+
 </html>
