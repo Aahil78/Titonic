@@ -1,16 +1,2 @@
 title: "Aahil Irfan | Portfolio"
 description: "Personal portfolio of Aahil Irfan — young engineer, builder, and founder of Techs Bazaar."
-author: "Aahil Irfan"
-email: aahilirfan2011@gmail.com
-phone: "03324522445"
-url: "https://techsbazaar.com"
-baseurl: "" # If deploying to a subdirectory, add it here
-
-# Build settings
-markdown: kramdown
-
-# Social links
-social:
-  github: aahil-irfan
-  website: https://techsbazaar.com
-  email: aahilirfan2011@gmail.com
